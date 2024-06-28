@@ -1,0 +1,15 @@
+---
+title: 'Timeseer domain docs'
+description: 'Timeseer domain concepts explained'
+icon: 'book'
+---
+
+## Data sets
+
+### Definition
+Data sets are defined in Timeseer as a combination of a time series selection with a time range of interest. In other words, they define a set of data that are consecutive in time.
+Data sets can be created from a series set (combining a series set with a time range) or be created by importing a data file.
+### Analyzing data sets
+To use data sets, attach them as input to a flow. The corresponding flow will then analyse the data in the set when it is evaluated.
+### Creating data sets
+Data sets can be created as output of a flow, for instance when the flow cleans raw data and creates a cleaned data version. Add a "Create a data set" block in your flow to write the latest version of the data to a newly created data set.
