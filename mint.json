@@ -2,17 +2,18 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Starter Kit",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/tsai_logo_2.png",
+    "light": "/logo/tsai_logo_2.png"
   },
+  "openapi": ["api2.json", "apispec_1.json", "openapi.json", "openapi-bck.json"],
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#2196f3",
+    "light": "#0192ff",
+    "dark": "#022954",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#1269b7",
+      "to": "#1269b7"
     }
   },
   "topbarLinks": [
@@ -79,6 +80,7 @@
       "group": "Endpoint Examples",
       "pages": [
         "api-reference/endpoint/get",
+        "api-reference/endpoint/data-services",
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
       ]

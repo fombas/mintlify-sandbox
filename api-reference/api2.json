@@ -1,20 +1,11 @@
 {
-  "openapi": "3.0.2",
   "info": {
+    "description": "",
+    "termsOfService": "",
     "title": "Timeseer.AI HTTP API",
-    "description": "Timeseer API example",
-    "version": "1.0.0"
+    "version": "0.0.1"
   },
-  "servers": [
-    {
-      "url": "http://demo.timeseer.ai/"
-    }
-  ],
-  "security": [
-    {
-      "bearerAuth": []
-    }
-  ],
+ "openapi": "3.0.2",
   "paths": {
     "/public/api/v1/data-services/": {
       "get": {
